@@ -22,6 +22,15 @@ body {
 }
 .container h2 {
   margin-bottom: 10px;
+  position: relative;
+}
+.container h2::before {
+  content: "";
+  position: absolute;
+  bottom: 0.8px;
+  width: 28px;
+  height: 2.5px;
+  background-color: #4071f4;
 }
 form {
   display: grid;
